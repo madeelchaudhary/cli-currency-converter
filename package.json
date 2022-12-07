@@ -1,0 +1,29 @@
+{
+  "name": "cli-currency-converter",
+  "version": "1.0.0",
+  "description": "Get the latest exchange rates on your CLI!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madeelchaudhary/cli-currency-converter"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4",
+    "nanospinner": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3"
+  }
+}
